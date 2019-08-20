@@ -1,0 +1,133 @@
+#************************************************************
+#*               MadGraph5_aMC@NLO/MadEvent                 *
+#*                                                          *
+#*                *                       *                 *
+#*                  *        * *        *                   *
+#*                    * * * * 5 * * * *                     *
+#*                  *        * *        *                   *
+#*                *                       *                 *
+#*                                                          *
+#*                                                          *
+#*         VERSION 2.6.6                 2018-06-28         *
+#*                                                          *
+#*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+#*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+#*                                                          *
+#************************************************************
+#*                                                          *
+#*               Command File for MadEvent                  *
+#*                                                          *
+#*     run as ./bin/madevent.py filename                    *
+#*                                                          *
+#************************************************************
+generate_events run_02
+Traceback (most recent call last):
+  File "/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/madgraph/interface/extended_cmd.py", line 1514, in onecmd
+    return self.onecmd_orig(line, **opt)
+  File "/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/madgraph/interface/extended_cmd.py", line 1463, in onecmd_orig
+    return func(arg, **opt)
+  File "/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/madgraph/interface/madevent_interface.py", line 2469, in do_generate_events
+    self.run_generate_events(switch_mode, args)
+  File "/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/madgraph/interface/common_run_interface.py", line 6929, in new_fct
+    original_fct(obj, *args, **opts)
+  File "/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/madgraph/interface/madevent_interface.py", line 2508, in run_generate_events
+    postcmd=False)
+  File "/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/madgraph/interface/extended_cmd.py", line 1543, in exec_cmd
+    stop = Cmd.onecmd_orig(current_interface, line, **opt)
+  File "/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/madgraph/interface/extended_cmd.py", line 1463, in onecmd_orig
+    return func(arg, **opt)
+  File "/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/madgraph/interface/madevent_interface.py", line 3357, in do_survey
+    jobs, P_zero_result = ajobcreator.launch()
+  File "/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/madgraph/madevent/gen_ximprove.py", line 186, in launch
+    self.cmd.compile(['madevent'], cwd=Pdir)
+  File "/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/madgraph/interface/extended_cmd.py", line 1607, in compile
+    return misc.compile(nb_core=self.options['nb_core'], *args, **opts)
+  File "/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/madgraph/various/misc.py", line 532, in compile
+    raise MadGraph5Error, error_text
+MadGraph5Error: A compilation Error occurs when trying to compile /nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam.
+The compilation fails with the following output message:
+    /cvmfs/sft.cern.ch/lcg/releases/gcc/6.2.0-b9934/x86_64-slc6/bin/gfortran -O -w -fbounds-check -fPIC -ffixed-line-length-132 -w -c driver.f -I../../Source/
+    /cvmfs/sft.cern.ch/lcg/releases/gcc/6.2.0-b9934/x86_64-slc6/bin/gfortran -O -w -fbounds-check -fPIC -ffixed-line-length-132 -w -c myamp.f -I../../Source/
+    /cvmfs/sft.cern.ch/lcg/releases/gcc/6.2.0-b9934/x86_64-slc6/bin/gfortran -O -w -fbounds-check -fPIC -ffixed-line-length-132 -w -c genps.f -I../../Source/
+    /cvmfs/sft.cern.ch/lcg/releases/gcc/6.2.0-b9934/x86_64-slc6/bin/gfortran -O -w -fbounds-check -fPIC -ffixed-line-length-132 -w -c unwgt.f -I../../Source/
+    /cvmfs/sft.cern.ch/lcg/releases/gcc/6.2.0-b9934/x86_64-slc6/bin/gfortran -O -w -fbounds-check -fPIC -ffixed-line-length-132 -w -c setcuts.f -I../../Source/
+    /cvmfs/sft.cern.ch/lcg/releases/gcc/6.2.0-b9934/x86_64-slc6/bin/gfortran -O -w -fbounds-check -fPIC -ffixed-line-length-132 -w -c get_color.f -I../../Source/
+    /cvmfs/sft.cern.ch/lcg/releases/gcc/6.2.0-b9934/x86_64-slc6/bin/gfortran -O -w -fbounds-check -fPIC -ffixed-line-length-132 -w -c cuts.f -I../../Source/
+    /cvmfs/sft.cern.ch/lcg/releases/gcc/6.2.0-b9934/x86_64-slc6/bin/gfortran -O -w -fbounds-check -fPIC -ffixed-line-length-132 -w -c cluster.f -I../../Source/
+    /cvmfs/sft.cern.ch/lcg/releases/gcc/6.2.0-b9934/x86_64-slc6/bin/gfortran -O -w -fbounds-check -fPIC -ffixed-line-length-132 -w -c reweight.f -I../../Source/
+    /cvmfs/sft.cern.ch/lcg/releases/gcc/6.2.0-b9934/x86_64-slc6/bin/gfortran -O -w -fbounds-check -fPIC -ffixed-line-length-132 -w -c initcluster.f -I../../Source/
+    /cvmfs/sft.cern.ch/lcg/releases/gcc/6.2.0-b9934/x86_64-slc6/bin/gfortran -O -w -fbounds-check -fPIC -ffixed-line-length-132 -w -c addmothers.f -I../../Source/
+    /cvmfs/sft.cern.ch/lcg/releases/gcc/6.2.0-b9934/x86_64-slc6/bin/gfortran -O -w -fbounds-check -fPIC -ffixed-line-length-132 -w -c setscales.f -I../../Source/
+    /cvmfs/sft.cern.ch/lcg/releases/gcc/6.2.0-b9934/x86_64-slc6/bin/gfortran -O -w -fbounds-check -fPIC -ffixed-line-length-132 -w -c dummy_fct.f -I../../Source/
+    /cvmfs/sft.cern.ch/lcg/releases/gcc/6.2.0-b9934/x86_64-slc6/bin/gfortran -O -w -fbounds-check -fPIC -ffixed-line-length-132 -w -c auto_dsig.f -I../../Source/
+    /cvmfs/sft.cern.ch/lcg/releases/gcc/6.2.0-b9934/x86_64-slc6/bin/gfortran -O -w -fbounds-check -fPIC -ffixed-line-length-132 -w -c auto_dsig1.f -I../../Source/
+    /cvmfs/sft.cern.ch/lcg/releases/gcc/6.2.0-b9934/x86_64-slc6/bin/gfortran -O -w -fbounds-check -fPIC -ffixed-line-length-132 -w -c matrix1.f -I../../Source/
+    matrix1.f:15:9:
+    
+           USE DISCRETESAMPLER
+             1
+    Fatal Error: Cannot read module file 'discretesampler.mod' opened at (1), because it was created by a different version of GNU Fortran
+    compilation terminated.
+    make: *** [matrix1.o] Error 1
+    make: *** Waiting for unfinished jobs....
+    auto_dsig.f:20:9:
+    
+           USE DISCRETESAMPLER
+             1
+    Fatal Error: Cannot read module file 'discretesampler.mod' opened at (1), because it was created by a different version of GNU Fortran
+    compilation terminated.
+    make: *** [auto_dsig.o] Error 1
+    driver.f:206:9:
+    
+           use DiscreteSampler
+             1
+    Fatal Error: Cannot read module file 'discretesampler.mod' opened at (1), because it was created by a different version of GNU Fortran
+    compilation terminated.
+    make: *** [driver.o] Error 1
+    
+Please try to fix this compilations issue and retry.
+Help might be found at https://answers.launchpad.net/mg5amcnlo.
+If you think that this is a bug, you can report this at https://bugs.launchpad.net/mg5amcnlo
+                              Run Options    
+                              -----------    
+               stdout_level 	:	20 (user set)
+
+                         MadEvent Options    
+                         ----------------    
+     automatic_html_opening 	:	False (user set)
+        notification_center 	:	True
+          cluster_temp_path 	:	None
+             cluster_memory 	:	None (user set)
+               cluster_size 	:	100 (user set)
+              cluster_queue 	:	short (user set)
+                    nb_core 	:	16 (user set)
+               cluster_time 	:	16 (user set)
+                   run_mode 	:	1 (user set)
+
+                      Configuration Options    
+                      ---------------------    
+                text_editor 	:	None
+         cluster_local_path 	:	None
+      cluster_status_update 	:	(600, 30)
+               pythia8_path 	:	/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/HEPTools/pythia8 (user set)
+                  hwpp_path 	:	None (user set)
+            pythia-pgs_path 	:	None (user set)
+                    td_path 	:	None (user set)
+               delphes_path 	:	None (user set)
+                thepeg_path 	:	None (user set)
+               cluster_type 	:	lsf (user set)
+          madanalysis5_path 	:	None (user set)
+           cluster_nb_retry 	:	1
+                 eps_viewer 	:	None
+                web_browser 	:	None
+               syscalc_path 	:	None (user set)
+           madanalysis_path 	:	None (user set)
+                     lhapdf 	:	lhapdf-config
+              f2py_compiler 	:	None
+                 hepmc_path 	:	None (user set)
+         cluster_retry_wait 	:	300
+           fortran_compiler 	:	None
+                auto_update 	:	7 (user set)
+        exrootanalysis_path 	:	/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ExRootAnalysis (user set)
+                    timeout 	:	60
+               cpp_compiler 	:	None

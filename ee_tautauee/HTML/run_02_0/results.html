@@ -1,0 +1,466 @@
+
+<head>
+    <title>Process results</title>
+    <script type="text/javascript" src="../sortable.js"></script>
+    <link rel=stylesheet href="../mgstyle.css" type="text/css">
+</head>
+<body>
+<script type="text/javascript">
+function UrlExists(url) {
+  var http = new XMLHttpRequest();
+  http.open('HEAD', url, false);
+  try{
+     http.send()
+     }
+  catch(err){
+   return 1==2;
+  }
+  return http.status!=404;
+}
+function check_link(url,alt, id){
+    var obj = document.getElementById(id);
+    if ( ! UrlExists(url)){
+        if ( ! UrlExists(alt)){
+         obj.href = alt;
+         return true;
+        }
+       obj.href = alt;
+       return false;
+    }
+    obj.href = url;
+    return 1==1;
+}
+</script>
+  
+
+ <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>s= 0.0040952 &#177 1.05e-05 (pb)</b><br><br>
+<table class="sortable" id='tablesort'>
+<tr><th>Graph</th>
+    <th> Cross-Section</th>
+    <th>Error</th>
+    <th>Events (K)</th>
+    <th>Unwgt</th>
+    <th>Luminosity</th>
+</tr>
+
+<tr><td align=right>/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam</td>
+    <td align=right><a id="#/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam" href=#/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam onClick="check_link('#/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam','#/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam','#/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam')"> 0.004095 </a> </td>
+    <td align=right>  1.05e-05</td>
+    <td align=right>  4330.684</td>
+    <td align=right>  22834.0</td>
+    <td align=right>  0</td>
+</tr>
+
+</table>
+</center>
+<br><br><br>
+ <dl>  
+
+ <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>s= 0.0040952 &#177 1.05e-05 (pb)</b><br><br>
+<table class="sortable" id='tablesort'>
+<tr><th>Graph</th>
+    <th> Cross-Section</th>
+    <th>Error</th>
+    <th>Events (K)</th>
+    <th>Unwgt</th>
+    <th>Luminosity</th>
+</tr>
+
+<tr><td align=right>G1</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G1/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G1/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G1/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G1/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G1/run1_app.log')"> 2.309e-06 </a> </td>
+    <td align=right>  1.33e-07</td>
+    <td align=right>  7.01</td>
+    <td align=right>  28.0</td>
+    <td align=right>  1.21e+07</td>
+</tr>
+
+<tr><td align=right>G3</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G3/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G3/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G3/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G3/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G3/run1_app.log')"> 4.974e-06 </a> </td>
+    <td align=right>  5.16e-07</td>
+    <td align=right>  7.01</td>
+    <td align=right>  45.0</td>
+    <td align=right>  9.05e+06</td>
+</tr>
+
+<tr><td align=right>G5</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G5/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G5/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G5/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G5/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G5/run1_app.log')"> 3.787e-07 </a> </td>
+    <td align=right>  1.51e-08</td>
+    <td align=right>  7.01</td>
+    <td align=right>  87.0</td>
+    <td align=right>  2.3e+08</td>
+</tr>
+
+<tr><td align=right>G7.04</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G7.04/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G7.04/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G7.04/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G7.04/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G7.04/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G7.05</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G7.05/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G7.05/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G7.05/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G7.05/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G7.05/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G7.07</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G7.07/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G7.07/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G7.07/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G7.07/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G7.07/run1_app.log')"> 7.158e-07 </a> </td>
+    <td align=right>  1.87e-08</td>
+    <td align=right>  7.01</td>
+    <td align=right>  196.0</td>
+    <td align=right>  2.74e+08</td>
+</tr>
+
+<tr><td align=right>G7.08</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G7.08/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G7.08/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G7.08/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G7.08/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G7.08/run1_app.log')"> 3.587e-08 </a> </td>
+    <td align=right>  1.7e-09</td>
+    <td align=right>  7.01</td>
+    <td align=right>  61.0</td>
+    <td align=right>  1.7e+09</td>
+</tr>
+
+<tr><td align=right>G9.16</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.16/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.16/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.16/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G9.16/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.16/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G9.17</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.17/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.17/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.17/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G9.17/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.17/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G9.22</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.22/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.22/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.22/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G9.22/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.22/run1_app.log')"> 1.049e-05 </a> </td>
+    <td align=right>  1.24e-07</td>
+    <td align=right>  7.016</td>
+    <td align=right>  504.0</td>
+    <td align=right>  4.8e+07</td>
+</tr>
+
+<tr><td align=right>G9.23</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.23/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.23/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.23/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G9.23/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.23/run1_app.log')"> 5.894e-07 </a> </td>
+    <td align=right>  1.07e-08</td>
+    <td align=right>  7.016</td>
+    <td align=right>  509.0</td>
+    <td align=right>  8.64e+08</td>
+</tr>
+
+<tr><td align=right>G9.25</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.25/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.25/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.25/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G9.25/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.25/run1_app.log')"> 1.287e-07 </a> </td>
+    <td align=right>  1.75e-08</td>
+    <td align=right>  31.016</td>
+    <td align=right>  37.0</td>
+    <td align=right>  2.88e+08</td>
+</tr>
+
+<tr><td align=right>G9.26</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.26/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.26/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.26/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G9.26/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G9.26/run1_app.log')"> 5.641e-09 </a> </td>
+    <td align=right>  3.92e-10</td>
+    <td align=right>  31.016</td>
+    <td align=right>  34.0</td>
+    <td align=right>  6.03e+09</td>
+</tr>
+
+<tr><td align=right>G10</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G10/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G10/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G10/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G10/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G10/run1_app.log')"> 1.659e-06 </a> </td>
+    <td align=right>  5.52e-08</td>
+    <td align=right>  15.01</td>
+    <td align=right>  147.0</td>
+    <td align=right>  8.86e+07</td>
+</tr>
+
+<tr><td align=right>G12</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G12/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G12/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G12/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G12/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G12/run1_app.log')"> 1.978e-06 </a> </td>
+    <td align=right>  7.14e-08</td>
+    <td align=right>  7.01</td>
+    <td align=right>  88.0</td>
+    <td align=right>  4.45e+07</td>
+</tr>
+
+<tr><td align=right>G14</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G14/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G14/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G14/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G14/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G14/run1_app.log')"> 2.279e-07 </a> </td>
+    <td align=right>  1.39e-08</td>
+    <td align=right>  7.01</td>
+    <td align=right>  16.0</td>
+    <td align=right>  7.02e+07</td>
+</tr>
+
+<tr><td align=right>G16.04</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G16.04/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G16.04/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G16.04/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G16.04/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G16.04/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G16.05</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G16.05/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G16.05/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G16.05/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G16.05/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G16.05/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G16.07</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G16.07/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G16.07/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G16.07/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G16.07/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G16.07/run1_app.log')"> 2.606e-07 </a> </td>
+    <td align=right>  9.55e-09</td>
+    <td align=right>  7.01</td>
+    <td align=right>  39.0</td>
+    <td align=right>  1.5e+08</td>
+</tr>
+
+<tr><td align=right>G16.08</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G16.08/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G16.08/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G16.08/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G16.08/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G16.08/run1_app.log')"> 2.401e-08 </a> </td>
+    <td align=right>  2.04e-09</td>
+    <td align=right>  7.01</td>
+    <td align=right>  19.0</td>
+    <td align=right>  7.91e+08</td>
+</tr>
+
+<tr><td align=right>G18</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G18/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G18/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G18/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G18/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G18/run1_app.log')"> 0.0005441 </a> </td>
+    <td align=right>  4.18e-06</td>
+    <td align=right>  110.02</td>
+    <td align=right>  2353.0</td>
+    <td align=right>  4.33e+06</td>
+</tr>
+
+<tr><td align=right>G20</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G20/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G20/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G20/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G20/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G20/run1_app.log')"> 2.666e-05 </a> </td>
+    <td align=right>  7.9e-07</td>
+    <td align=right>  7.01</td>
+    <td align=right>  125.0</td>
+    <td align=right>  4.69e+06</td>
+</tr>
+
+<tr><td align=right>G22</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G22/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G22/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G22/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G22/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G22/run1_app.log')"> 2.529e-05 </a> </td>
+    <td align=right>  7.29e-07</td>
+    <td align=right>  7.01</td>
+    <td align=right>  182.0</td>
+    <td align=right>  7.2e+06</td>
+</tr>
+
+<tr><td align=right>G24</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G24/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G24/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G24/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G24/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G24/run1_app.log')"> 1.35e-06 </a> </td>
+    <td align=right>  3.61e-08</td>
+    <td align=right>  7.01</td>
+    <td align=right>  177.0</td>
+    <td align=right>  1.31e+08</td>
+</tr>
+
+<tr><td align=right>G26</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G26/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G26/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G26/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G26/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G26/run1_app.log')"> 0.0002314 </a> </td>
+    <td align=right>  2.52e-06</td>
+    <td align=right>  7.848</td>
+    <td align=right>  759.0</td>
+    <td align=right>  3.28e+06</td>
+</tr>
+
+<tr><td align=right>G27</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G27/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G27/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G27/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G27/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G27/run1_app.log')"> 0.0002549 </a> </td>
+    <td align=right>  2.7e-06</td>
+    <td align=right>  75.001</td>
+    <td align=right>  841.0</td>
+    <td align=right>  3.3e+06</td>
+</tr>
+
+<tr><td align=right>G28</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G28/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G28/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G28/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G28/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G28/run1_app.log')"> 0.0002604 </a> </td>
+    <td align=right>  2.34e-06</td>
+    <td align=right>  2555.001</td>
+    <td align=right>  1756.0</td>
+    <td align=right>  6.74e+06</td>
+</tr>
+
+<tr><td align=right>G29</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G29/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G29/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G29/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G29/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G29/run1_app.log')"> 0.0004431 </a> </td>
+    <td align=right>  3.83e-06</td>
+    <td align=right>  88.442</td>
+    <td align=right>  1894.0</td>
+    <td align=right>  4.28e+06</td>
+</tr>
+
+<tr><td align=right>G30</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G30/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G30/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G30/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G30/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G30/run1_app.log')"> 0.0004212 </a> </td>
+    <td align=right>  2.62e-06</td>
+    <td align=right>  310.032</td>
+    <td align=right>  2341.0</td>
+    <td align=right>  5.55e+06</td>
+</tr>
+
+<tr><td align=right>G31</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G31/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G31/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G31/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G31/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G31/run1_app.log')"> 1.605e-05 </a> </td>
+    <td align=right>  6.25e-07</td>
+    <td align=right>  34.921</td>
+    <td align=right>  230.0</td>
+    <td align=right>  1.43e+07</td>
+</tr>
+
+<tr><td align=right>G32</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G32/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G32/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G32/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G32/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G32/run1_app.log')"> 1.285e-05 </a> </td>
+    <td align=right>  6.98e-07</td>
+    <td align=right>  7.016</td>
+    <td align=right>  43.0</td>
+    <td align=right>  3.35e+06</td>
+</tr>
+
+<tr><td align=right>G33</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G33/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G33/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G33/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G33/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G33/run1_app.log')"> 2.98e-05 </a> </td>
+    <td align=right>  1.28e-06</td>
+    <td align=right>  7.016</td>
+    <td align=right>  223.0</td>
+    <td align=right>  7.48e+06</td>
+</tr>
+
+<tr><td align=right>G34</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G34/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G34/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G34/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G34/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G34/run1_app.log')"> 2.584e-05 </a> </td>
+    <td align=right>  8.83e-07</td>
+    <td align=right>  7.016</td>
+    <td align=right>  141.0</td>
+    <td align=right>  5.46e+06</td>
+</tr>
+
+<tr><td align=right>G35</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G35/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G35/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G35/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G35/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G35/run1_app.log')"> 0.0002655 </a> </td>
+    <td align=right>  2.15e-06</td>
+    <td align=right>  155.001</td>
+    <td align=right>  1251.0</td>
+    <td align=right>  4.71e+06</td>
+</tr>
+
+<tr><td align=right>G36</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G36/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G36/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G36/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G36/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G36/run1_app.log')"> 0.0002634 </a> </td>
+    <td align=right>  2.89e-06</td>
+    <td align=right>  315.001</td>
+    <td align=right>  761.0</td>
+    <td align=right>  2.89e+06</td>
+</tr>
+
+<tr><td align=right>G37</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G37/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G37/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G37/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G37/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G37/run1_app.log')"> 0.0004406 </a> </td>
+    <td align=right>  3.59e-06</td>
+    <td align=right>  95.204</td>
+    <td align=right>  2795.0</td>
+    <td align=right>  6.33e+06</td>
+</tr>
+
+<tr><td align=right>G38</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G38/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G38/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G38/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G38/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G38/run1_app.log')"> 0.0004121 </a> </td>
+    <td align=right>  3.1e-06</td>
+    <td align=right>  110.032</td>
+    <td align=right>  1904.0</td>
+    <td align=right>  4.61e+06</td>
+</tr>
+
+<tr><td align=right>G39</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G39/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G39/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G39/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G39/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G39/run1_app.log')"> 1.62e-05 </a> </td>
+    <td align=right>  3.06e-07</td>
+    <td align=right>  35.001</td>
+    <td align=right>  97.0</td>
+    <td align=right>  5.99e+06</td>
+</tr>
+
+<tr><td align=right>G40</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G40/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G40/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G40/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G40/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G40/run1_app.log')"> 1.574e-05 </a> </td>
+    <td align=right>  2.75e-07</td>
+    <td align=right>  153.482</td>
+    <td align=right>  278.0</td>
+    <td align=right>  1.77e+07</td>
+</tr>
+
+<tr><td align=right>G41</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G41/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G41/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G41/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G41/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G41/run1_app.log')"> 2.983e-05 </a> </td>
+    <td align=right>  8.27e-07</td>
+    <td align=right>  7.016</td>
+    <td align=right>  109.0</td>
+    <td align=right>  3.65e+06</td>
+</tr>
+
+<tr><td align=right>G42</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G42/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G42/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G42/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G42/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G42/run1_app.log')"> 2.707e-05 </a> </td>
+    <td align=right>  6.65e-07</td>
+    <td align=right>  7.016</td>
+    <td align=right>  214.0</td>
+    <td align=right>  7.91e+06</td>
+</tr>
+
+<tr><td align=right>G43</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G43/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G43/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G43/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G43/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G43/run1_app.log')"> 1.457e-05 </a> </td>
+    <td align=right>  3.6e-07</td>
+    <td align=right>  7.016</td>
+    <td align=right>  221.0</td>
+    <td align=right>  1.52e+07</td>
+</tr>
+
+<tr><td align=right>G44</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G44/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G44/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G44/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G44/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G44/run1_app.log')"> 1.547e-05 </a> </td>
+    <td align=right>  2.61e-07</td>
+    <td align=right>  15.198</td>
+    <td align=right>  249.0</td>
+    <td align=right>  1.61e+07</td>
+</tr>
+
+<tr><td align=right>G45</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G45/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G45/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G45/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G45/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G45/run1_app.log')"> 2.829e-05 </a> </td>
+    <td align=right>  6e-07</td>
+    <td align=right>  7.016</td>
+    <td align=right>  393.0</td>
+    <td align=right>  1.39e+07</td>
+</tr>
+
+<tr><td align=right>G46</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G46/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G46/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G46/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G46/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G46/run1_app.log')"> 2.965e-05 </a> </td>
+    <td align=right>  6.97e-07</td>
+    <td align=right>  7.016</td>
+    <td align=right>  255.0</td>
+    <td align=right>  8.6e+06</td>
+</tr>
+
+<tr><td align=right>G47</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G47/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G47/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G47/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G47/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G47/run1_app.log')"> 3.527e-05 </a> </td>
+    <td align=right>  8.44e-07</td>
+    <td align=right>  9.654</td>
+    <td align=right>  345.0</td>
+    <td align=right>  9.78e+06</td>
+</tr>
+
+<tr><td align=right>G48</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G48/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G48/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G48/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G48/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G48/run1_app.log')"> 3.569e-05 </a> </td>
+    <td align=right>  5.07e-07</td>
+    <td align=right>  15.492</td>
+    <td align=right>  525.0</td>
+    <td align=right>  1.47e+07</td>
+</tr>
+
+<tr><td align=right>G49</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G49/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G49/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G49/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G49/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G49/run1_app.log')"> 7.559e-05 </a> </td>
+    <td align=right>  2.37e-06</td>
+    <td align=right>  7.016</td>
+    <td align=right>  296.0</td>
+    <td align=right>  3.92e+06</td>
+</tr>
+
+<tr><td align=right>G50</td>
+    <td align=right><a id="/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G50/run1_app.log" href=/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G50/run1_app.log onClick="check_link('/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G50/run1_app.log','../../SubProcesses/P1_ll_lltaptam/G50/log.txt','/nfs/slac/g/atlas/u02/jpearkes/MG5_aMC_v2_6_1/ee_tautauee/SubProcesses/P1_ll_lltaptam/../../SubProcesses/P1_ll_lltaptam/G50/run1_app.log')"> 7.354e-05 </a> </td>
+    <td align=right>  1.62e-06</td>
+    <td align=right>  7.016</td>
+    <td align=right>  262.0</td>
+    <td align=right>  3.56e+06</td>
+</tr>
+
+</table>
+</center>
+<br><br><br>
+ </dl></body>
