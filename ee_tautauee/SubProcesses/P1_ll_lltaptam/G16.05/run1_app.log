@@ -86,7 +86,7 @@
  Collider parameters:
  --------------------
 
- Running at e e   machine @    1000.0000000000000       GeV
+ Running at e e   machine @    365.00000000000000       GeV
  PDF set = none   
  alpha_s(Mz)= 0.1180 running at 2 loops.
  alpha_s(Mz)= 0.1180 running at 2 loops.
@@ -118,16 +118,16 @@ Running Configuration Number:   16
  Using Uniform Grid!          24
  Using uniform alpha   1.0000000000000000     
  Grid defined OK
- Set CM energy to       1000.00
+ Set CM energy to        365.00
  Mapping Graph          16  to config          16
-Setting grid   1    0.12631E-04   1
-Setting grid   2    0.12631E-04   1
+Setting grid   1    0.94809E-04   1
+Setting grid   2    0.94809E-04   1
  Setting PDF BW           9           2   91.188000000000002     
   16   1   2   3   4   5   6   7   8
  Masses: 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.178E+01 0.178E+01
 Using random seed offsets    16 :      1
-  with seed                   78
- Ranmar initialization seeds        6657        9455
+  with seed                  114
+ Ranmar initialization seeds       20460        9492
  
  ********************************************
  * You are using the DiscreteSampler module *
@@ -163,3 +163,7 @@ results.dat
 run1_app.log
 run_01_log.txt
 run_02_0_log.txt
+run_03_0_log.txt
+run_04_log.txt
+run_05_log.txt
+run_06_log.txt
